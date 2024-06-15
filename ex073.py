@@ -38,4 +38,4 @@ print('-=' * 15)
 #em que posiçao esta o time da chapecoense
 for posicao, times in enumerate(times_de_futebol):
     if times == 'Chapecoense':
-        print(f'{posicao}. {times}')
+        print(f'{posicao + 1}. {times}')
